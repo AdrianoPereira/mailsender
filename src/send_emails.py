@@ -1,7 +1,3 @@
-# English: Import necessary libraries
-# smtplib: for connecting to the email server and sending the email
-# email.mime.*: to create the email message with different parts (text, attachments)
-# csv: to read the contact list from a CSV file
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
